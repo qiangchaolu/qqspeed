@@ -14,7 +14,7 @@ app.use(cors({
     origin: 'http://localhost:8080',
     credentials: true
 }))
-var server = app.listen(3000);
+var server = app.listen(5050);
 
 //使用body-parser中间件
 app.use(bodyParser.urlencoded({ extended: false }));
