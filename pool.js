@@ -2,9 +2,9 @@
 const mysql = require('mysql');
 var pool = mysql.createPool({
     host: 'w.rdc.sae.sina.com.cn',
-    user: '5n0l1o421y',
-    password: '4hy404lzl45zj4ykw0kh0zw5y451ih555jlm5xxh',
-    database: 'app_syspeed',
+    user: 'j0kz22jlmy',
+    password: 'h2xjy31zl1wwh53m1x4yx32yk02xw03w4zkwlh53',
+    database: 'app_speedsy',
     connectionLimit: 10
 });
 //把创建好的连接池导出
